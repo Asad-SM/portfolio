@@ -174,9 +174,13 @@
     letter-spacing: 1.1px;
 }
 
-.skill-1:hover .st0 {
-    fill: #FEC544;
-    transition: 0.2s all ease-in-out;
+.skill-1, .card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+    /* width: 100px; */
 }
 .skill-1:hover .card-title{
     color: #FEC544; 
@@ -185,4 +189,18 @@
 .skill-1:hover{
     border: 1px solid #FEC544 !important;
     transition: 0.4s all ease-in-out;
+    transform: scale(0.9);
+}
+.skill-1{
+    transition: 0.4s all ease-in-out;
+}
+.icon i {
+    color: white;
+    font-size: 94px;
+}
+.main-2 img{
+    width: 100%;
+}
+.main-4{
+    background-color: #0A101E;
 }
